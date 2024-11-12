@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu.MenuActivity">
+
+    <LinearLayout
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:clipToPadding="false"
+            android:id="@+id/rk4xsoy4vc3i"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#BEE6AB"
+            android:paddingVertical="100dp"
+            android:paddingHorizontal="11dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/menu_objective_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/cr10bffa3a3"
+                    android:paddingHorizontal="25dp"
+                    android:layout_marginBottom="46dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/rjq84vgsekjj"
+                        android:layout_width="73dp"
+                        android:layout_height="96dp"
+                        android:layout_marginEnd="45dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/menu_flag"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/rkyrtgedt1oc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="나 스스로 목표"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/menu_checklist_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/cr10bffe148"
+                    android:paddingHorizontal="25dp"
+                    android:layout_marginBottom="46dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/ry8gcgwpqaq9"
+                        android:layout_width="73dp"
+                        android:layout_height="96dp"
+                        android:paddingVertical="10dp"
+                        android:layout_marginEnd="45dp"
+                        android:src="@drawable/clock_checklist"
+                        android:scaleType="fitXY"
+                        />
+                    <TextView
+                        android:id="@+id/r3u697tc72xo"
+                        android:textColor="#000000"
+                        android:textSize="25sp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="나 스스로 점검"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/menu_evaluation_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/cr10b8ab7fb"
+                    android:paddingHorizontal="25dp"
+                    android:layout_marginBottom="46dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/r0anioydaiycq"
+                        android:layout_width="73dp"
+                        android:layout_height="92dp"
+                        android:paddingVertical="15dp"
+                        android:layout_marginEnd="45dp"
+                        android:src="@drawable/bar_graph"
+                        android:scaleType="fitXY"
+                        />
+                    <TextView
+                        android:id="@+id/rd4w6gljlxxf"
+                        android:textColor="#000000"
+                        android:textSize="25sp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="나 스스로 평가"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/menu_cheer_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/cr10bd097eb"
+                    android:paddingHorizontal="25dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/rq2zf1y5w1rr"
+                        android:layout_width="73dp"
+                        android:layout_height="92dp"
+                        android:layout_marginEnd="45dp"
+                        android:src="@drawable/menu_cheer"
+                        android:scaleType="fitXY"
+                        />
+                    <TextView
+                        android:id="@+id/r6vjpvteoden"
+                        android:textColor="#000000"
+                        android:textSize="25sp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="나 스스로 칭찬"
+                        android:textStyle="bold"
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>

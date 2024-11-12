@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:id="@+id/gift_stamp_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cr20bffe27c"
+        android:orientation="vertical"
+        android:paddingTop="14dp"
+        android:paddingBottom="4dp">
+
+        <LinearLayout
+
+            android:id="@+id/rfqp6xfvyn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/gift_stamp_box0"
+                android:layout_width="53dp"
+                android:layout_height="60dp"
+                android:background="@drawable/cr10bd9d9d9"
+                android:gravity="center"
+                android:orientation="vertical"></LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/gift_stamp_box1"
+                android:layout_width="53dp"
+                android:layout_height="60dp"
+                android:background="@drawable/cr10bd9d9d9"
+
+                android:gravity="center"
+                android:orientation="vertical"></LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/gift_stamp_box2"
+                android:layout_width="53dp"
+                android:layout_height="60dp"
+                android:background="@drawable/cr10bd9d9d9"
+
+                android:gravity="center"
+                android:orientation="vertical"></LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/gift_stamp_box3"
+                android:layout_width="53dp"
+                android:layout_height="60dp"
+                android:background="@drawable/cr10bd9d9d9"
+
+                android:gravity="center"
+                android:orientation="vertical"></LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/gift_stamp_box4"
+                android:layout_width="53dp"
+                android:layout_height="60dp"
+                android:background="@drawable/cr10bd9d9d9"
+
+                android:gravity="center"
+                android:orientation="vertical"></LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/ro5av7lc0j8q"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="11dp"
+            android:layout_marginBottom="6dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/gift_stamp_box5"
+                android:layout_width="53dp"
+                android:layout_height="60dp"
+                android:background="@drawable/cr10bd9d9d9"
+
+                android:gravity="center"
+                android:orientation="vertical"></LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/gift_stamp_box6"
+                android:layout_width="53dp"
+                android:layout_height="60dp"
+
+                android:background="@drawable/cr10bd9d9d9"
+                android:gravity="center"
+                android:orientation="vertical"></LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/gift_stamp_box7"
+                android:layout_width="53dp"
+                android:layout_height="60dp"
+                android:background="@drawable/cr10bd9d9d9"
+
+                android:gravity="center"
+                android:orientation="vertical"></LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/gift_stamp_box8"
+                android:layout_width="53dp"
+                android:layout_height="60dp"
+                android:background="@drawable/cr10bd9d9d9"
+
+                android:gravity="center"
+                android:orientation="vertical"></LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:id="@+id/gift_stamp_box9"
+                android:layout_width="53dp"
+                android:layout_height="60dp"
+                android:background="@drawable/cr10bd9d9d9"
+                android:gravity="center"
+                android:orientation="vertical"></LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/r17f7o4ki8ud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/rxzmnh6ze2ud"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="지금까지"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="43dp"
+                android:layout_height="39dp"
+                android:layout_marginEnd="8dp"
+
+                android:background="@drawable/cr10bffffff"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/accumulated_stamp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="10"
+                    android:textSize="15sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/rwilmyt6axum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="17dp"
+                android:text="개"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="앞으로"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="43dp"
+                android:layout_height="39dp"
+                android:layout_marginEnd="8dp"
+
+                android:background="@drawable/cr10bffffff"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/left_stamp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="10"
+                    android:textSize="15sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="17dp"
+                android:text="개"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

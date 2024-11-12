@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:id="@+id/rd7h47s33glf"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E3E3E3"
+        android:clipToPadding="false"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/rsfkmvz50d8q"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="20dp"
+                android:text="나의 미션 달성도를 확인해요."
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginVertical="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:orientation="horizontal"
+                android:background="@drawable/cr10bffffff"
+                >
+                <ImageView
+                    android:id="@+id/r2ux5cr29buw"
+                    android:layout_width="25dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/flag_dark" />
+                <TextView
+                    android:id="@+id/objective_title_order"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    ></TextView>
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/rgxhovyw7kxe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="6dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/r714dwalz7xw"
+                    android:layout_width="170dp"
+                    android:layout_height="140dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@drawable/cr20bffffff"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingTop="12dp">
+
+                    <TextView
+                        android:id="@+id/my_objective_setting"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="나의 목표"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <Spinner
+                        android:id="@+id/goal_percent"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="30sp"
+                        android:text="80%"
+                        android:background="@null" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/rogm16j6jsbg"
+                    android:layout_width="170dp"
+                    android:layout_height="140dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@drawable/cr20bffffff"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingTop="12dp">
+
+                    <TextView
+                        android:id="@+id/my_status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="나의 미션 달성도"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/misson_complish_percent"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="30sp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:background="@null"
+                        ></TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/rgcrql76uoh5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/rk6s52lb7fg9"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bar_graph" />
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/rh4yb5yc7up"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:id="@+id/button_check_graph"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cr20b00ca51"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:paddingVertical="10dp">
+
+                        <TextView
+                            android:id="@+id/r3ts7je7ywqb"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="나의 성장곡선 확인하기"
+                            android:textColor="#000000"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/timer_history_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cr20b56a3ff"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_marginHorizontal="20dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:paddingVertical="10dp">
+
+                <TextView
+                    android:id="@+id/ra5thbayhg2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="타이머 내역 체크하기"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/checklist_history_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cr20ffec8a"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_marginHorizontal="20dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:paddingVertical="10dp">
+
+                <TextView
+                    android:id="@+id/ra5thbayhgr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="체크리스트 내역 체크하기"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/r9d0adyza6wh"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/cr20bffffff"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="나의 점검 정확도"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/misson_correction_percent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="30sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@null"
+                    ></TextView>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="11dp"
+                android:text="오늘의 달성 현황"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="6dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:layout_width="170dp"
+                    android:layout_height="100dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@drawable/cr10bafffa2"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingTop="12dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="오늘의 미션 달성도"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/today_accomplish"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="30sp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:background="@null" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:layout_width="170dp"
+                    android:layout_height="100dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@drawable/cr10bafffa2"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingTop="12dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="오늘의 점검 정확도"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/today_accuracy"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="30sp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:background="@null" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="11dp"
+                android:text="오늘의 미션 소감"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/rfxx81jpfwu"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/cr20bffffff"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingRight="18dp">
+
+                <ImageView
+                    android:id="@+id/rckz4f7io22h"
+                    android:layout_width="39dp"
+                    android:layout_height="44dp"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="right"
+                    android:src="@drawable/writing" />
+
+                <EditText
+                    android:id="@+id/today_feeling"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    ></EditText>
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/r84ad1xhh2cn"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginVertical="10dp"
+                android:layout_marginHorizontal="15dp"
+                android:background="@drawable/cr20bffffff"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingRight="18dp">
+
+                <ImageView
+                    android:id="@+id/r88i6lel2r26"
+                    android:layout_width="32dp"
+                    android:layout_height="34dp"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="right"
+                    android:src="@drawable/parents" />
+
+                <EditText
+                    android:id="@+id/parents_feeling"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    ></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/evaluation_save_button"
+                android:layout_width="100dp"
+                android:layout_height="42dp"
+                android:layout_gravity="right"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/cr20bffec8a"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="저장"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

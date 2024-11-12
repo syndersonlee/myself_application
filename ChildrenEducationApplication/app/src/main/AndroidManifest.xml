@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"
+        tools:ignore="ScopedStorage" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/myself"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/myself"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ChildrenEducationApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".stamp.StampAdjustActivity"
+            android:exported="false"
+            android:label="@string/title_activity_stamp_adust"
+            android:theme="@style/Theme.ChildrenEducationApplication" />
+        <activity
+            android:name=".stamp.GiftStampAdapter"
+            android:exported="false"
+            android:label="@string/title_activity_gift_stamp_adapter"
+            android:theme="@style/Theme.ChildrenEducationApplication" />
+        <activity
+            android:name=".check.parents.OrderParentsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_order_parents"
+            android:theme="@style/Theme.ChildrenEducationApplication" />
+        <activity
+            android:name=".check.parents.TimerParentsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_timer_parents"
+            android:theme="@style/Theme.ChildrenEducationApplication" />
+        <activity
+            android:name=".menu.LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.ChildrenEducationApplication" />
+        <activity
+            android:name=".stamp.StampDetailActivity"
+            android:exported="false"
+            android:label="@string/title_activity_stamp_detail"
+            android:theme="@style/Theme.ChildrenEducationApplication" />
+        <activity
+            android:name=".evaluation.OrderHistoryActivity"
+            android:exported="false"
+            android:label="@string/title_activity_order_history"
+            android:theme="@style/Theme.ChildrenEducationApplication" />
+        <activity
+            android:name=".evaluation.TimerHistoryActivity"
+            android:exported="false"
+            android:label="@string/title_activity_timer_history"
+            android:theme="@style/Theme.ChildrenEducationApplication" />
+        <activity
+            android:name=".stamp.StampCollectingActivity"
+            android:exported="false"
+            android:label="@string/title_activity_stamp_colleting"
+            android:theme="@style/Theme.ChildrenEducationApplication" />
+        <activity
+            android:name=".evaluation.CheckEvaluationGraphActivity"
+            android:exported="false"
+            android:label="@string/title_activity_check_evaluation_graph"
+            android:theme="@style/Theme.ChildrenEducationApplication" />
+        <activity
+            android:name=".evaluation.SettingEvaluationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_setting_evaluation"
+            android:theme="@style/Theme.ChildrenEducationApplication" />
+        <activity
+            android:name=".check.ChecklistOrderBroadCast"
+            android:exported="false"
+            android:label="@string/title_activity_checklist_order_broad_cast"
+            android:theme="@style/Theme.ChildrenEducationApplication" />
+        <activity
+            android:name=".check.SettingChecklistOrderActivity"
+            android:exported="false"
+            android:label="@string/title_activity_setting_checklist_order"
+            android:theme="@style/Theme.ChildrenEducationApplication" />
+        <activity
+            android:name=".check.ChecklistTimerBroadcast"
+            android:configChanges="screenSize|orientation"
+            android:exported="false"
+            android:label="@string/title_activity_checklist_timer_broadcast"
+            android:theme="@style/Theme.ChildrenEducationApplication" />
+        <activity
+            android:name=".check.SettingChecklistTimerActivity"
+            android:exported="false"
+            android:label="@string/title_activity_setting_checklist_timer"
+            android:theme="@style/Theme.ChildrenEducationApplication" />
+        <activity
+            android:name=".check.ChecklistSubMenuActivity"
+            android:exported="false"
+            android:label="@string/title_activity_checklist_sub_menu"
+            android:theme="@style/Theme.ChildrenEducationApplication" />
+        <activity
+            android:name=".objective.SettingObjectiveDetailActivity"
+            android:exported="false"
+            android:label="@string/title_activity_setting_objective_detail"
+            android:theme="@style/Theme.ChildrenEducationApplication" />
+        <activity
+            android:name=".objective.SettingProfileActivity"
+            android:exported="false"
+            android:label="@string/title_activity_setting_objective"
+            android:theme="@style/Theme.ChildrenEducationApplication" />
+        <activity
+            android:name=".menu.LoadingActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".menu.MenuActivity"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>

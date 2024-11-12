@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:id="@+id/rrm04vscm8fa"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#AFE2FF"
+            android:clipChildren="false"
+            android:paddingTop="30dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="vertical">
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/r58mgou03t3c"
+                    android:layout_width="246dp"
+                    android:layout_height="53dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/cr10bffffff"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingVertical="9dp">
+
+                    <ImageView
+                        android:id="@+id/rbzuwzgyt9j9"
+                        android:layout_width="30dp"
+                        android:layout_height="34dp"
+                        android:layout_marginEnd="10dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/red_mark" />
+
+                    <TextView
+                        android:id="@+id/objective_title_order_parents"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="숙제를 하고 있나요?"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="50dp">
+
+                    <ImageView
+                        android:layout_width="66dp"
+                        android:layout_height="58dp"
+                        android:layout_alignParentRight="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/children" />
+
+                    <ImageView
+                        android:layout_width="66dp"
+                        android:layout_height="58dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="15dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/parents_icon" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/order_history_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

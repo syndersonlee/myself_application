@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="gift_stamp_width">53dp</dimen>
+    <dimen name="gift_stamp_height">60dp</dimen>
+</resources>
+

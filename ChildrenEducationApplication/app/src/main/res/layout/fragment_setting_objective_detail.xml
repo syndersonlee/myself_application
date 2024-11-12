@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:id="@+id/rwxculc2hzfd"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#E3E3E3"
+            android:clipChildren="false"
+            android:paddingHorizontal="10dp"
+            android:paddingTop="44dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="나 스스로 목표 설정하기"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="공부 영역과 일상생활 영역에서 점검할 목표를 만들어요."
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/r2ux5cr29buw"
+                    android:layout_width="51dp"
+                    android:layout_height="100dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/flag_dark" />
+
+                <LinearLayout
+                    android:id="@+id/rcsrkcffiudu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:orientation="vertical">
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:id="@+id/rbrxit0g4ef6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cr10bffb4b4"
+                        android:orientation="vertical"
+                        android:paddingVertical="8dp"
+                        android:paddingRight="4dp">
+
+                        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                            android:id="@+id/rj2emx2hj4r"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="11dp"
+                            android:layout_marginBottom="5dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+                                    android:id="@+id/roavd71dupep"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:id="@+id/rejbrnm6c4if"
+                                        android:layout_width="76dp"
+                                        android:layout_height="69dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginBottom="12dp"
+                                        android:scaleType="fitXY"
+                                        android:src="@drawable/study_icon" />
+
+                                    <TextView
+                                        android:id="@+id/r1mjp89qnwrt"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="7dp"
+                                        android:text="공부 영역"
+                                        android:textColor="#000000"
+                                        android:textSize="15sp"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginVertical="8dp"
+                                        android:layout_weight="1"
+                                        android:text="공부 영역 목표 예시"
+                                        android:textColor="#000000"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:text="・ 20분 국어 숙제 하기"
+                                        android:textColor="#000000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:text="・ 매일 학습지 풀기"
+                                        android:textColor="#000000" />
+
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                xmlns:app="http://schemas.android.com/apk/res-auto"
+                                xmlns:tools="http://schemas.android.com/tools"
+                                android:id="@+id/rmeaefvrpig"
+                                android:layout_width="225dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/r0egrw0famfg"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginBottom="10dp"
+                                    android:text="공부 영역에서의 나의 목표를 만들기"
+                                    android:textColor="#000000"
+                                    android:textSize="13sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/rc9va57lqmv"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginBottom="8dp"
+                                    android:text="목표를 쓰고 점검할 내용 선택하기"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+
+                                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+                                    android:id="@+id/ry16ijtpeqz"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="5dp"
+                                    android:gravity="center_vertical"
+                                    android:orientation="horizontal">
+
+                                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                                        xmlns:tools="http://schemas.android.com/tools"
+                                        android:id="@+id/study_select_one"
+                                        android:layout_width="28dp"
+                                        android:layout_height="34dp"
+                                        android:background="@drawable/cr10bffffff"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:id="@+id/checkbox_study_image0"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:scaleType="fitXY"
+                                            android:src="@drawable/yes_checkbox" />
+
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="0dp"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="1" />
+
+                                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                                        xmlns:tools="http://schemas.android.com/tools"
+                                        android:id="@+id/r6ae08t5kvm8"
+                                        android:layout_width="191dp"
+                                        android:layout_height="34dp"
+                                        android:background="@drawable/cr10bffffff"
+                                        android:orientation="vertical">
+
+                                        <EditText
+                                            android:id="@+id/study_objective0"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:background="@null">
+
+                                        </EditText>
+
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    xmlns:tools="http://schemas.android.com/tools"
+                                    android:id="@+id/rzh9ba2kzp8k"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="5dp"
+                                    android:gravity="center_vertical"
+                                    android:orientation="horizontal">
+
+                                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                                        xmlns:tools="http://schemas.android.com/tools"
+                                        android:id="@+id/study_select_two"
+                                        android:layout_width="28dp"
+                                        android:layout_height="34dp"
+                                        android:background="@drawable/cr10bffffff"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:id="@+id/checkbox_study_image1"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:scaleType="fitXY"
+                                            android:src="@drawable/yes_checkbox" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="0dp"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="1" />
+
+                                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                                        xmlns:tools="http://schemas.android.com/tools"
+                                        android:layout_width="191dp"
+                                        android:layout_height="34dp"
+                                        android:background="@drawable/cr10bffffff"
+                                        android:orientation="vertical">
+
+                                        <EditText
+                                            android:id="@+id/study_objective1"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:background="@null">
+
+                                        </EditText>
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    xmlns:tools="http://schemas.android.com/tools"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="5dp"
+                                    android:gravity="center_vertical"
+                                    android:orientation="horizontal">
+
+                                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                        android:id="@+id/study_select_three"
+                                        android:layout_width="28dp"
+                                        android:layout_height="34dp"
+                                        android:background="@drawable/cr10bffffff"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:id="@+id/checkbox_study_image2"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:scaleType="fitXY"
+                                            android:src="@drawable/yes_checkbox" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="0dp"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="1" />
+
+                                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+                                        android:layout_width="191dp"
+                                        android:layout_height="34dp"
+                                        android:background="@drawable/cr10bffffff"
+                                        android:orientation="vertical">
+
+                                        <EditText
+                                            android:id="@+id/study_objective2"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:background="@null">
+
+                                        </EditText>
+
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:orientation="vertical">
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cr10bafffa2"
+                        android:orientation="vertical"
+                        android:paddingVertical="8dp"
+                        android:paddingRight="4dp">
+
+                        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="11dp"
+                            android:layout_marginBottom="5dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="69dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginBottom="12dp"
+                                        android:scaleType="fitXY"
+                                        android:src="@drawable/house_icon" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="7dp"
+                                        android:text="일상 생활 영역"
+                                        android:textColor="#000000"
+                                        android:textSize="15sp"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginVertical="8dp"
+                                        android:layout_weight="1"
+                                        android:text="일상 생활 영역 목표 예시"
+                                        android:textColor="#000000"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:text="・ 가방 챙기기"
+                                        android:textColor="#000000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:text="・ 옷 정리하기"
+                                        android:textColor="#000000" />
+
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                xmlns:app="http://schemas.android.com/apk/res-auto"
+                                xmlns:tools="http://schemas.android.com/tools"
+                                android:layout_width="225dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginBottom="10dp"
+                                    android:text="일상 생활 영역에서의 나의 목표를 만들기"
+                                    android:textColor="#000000"
+                                    android:textSize="13sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginBottom="8dp"
+                                    android:text="목표를 쓰고 점검할 내용 선택하기"
+                                    android:textColor="#000000"
+                                    android:textSize="12sp" />
+
+                                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="5dp"
+                                    android:gravity="center_vertical"
+                                    android:orientation="horizontal">
+
+                                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                        android:id="@+id/live_select_one"
+
+                                        android:layout_width="28dp"
+                                        android:layout_height="34dp"
+                                        android:background="@drawable/cr10bffffff"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:id="@+id/checkbox_live_image0"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:scaleType="fitXY"
+                                            android:src="@drawable/yes_checkbox" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="0dp"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="1" />
+
+                                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                                        xmlns:tools="http://schemas.android.com/tools"
+                                        android:layout_width="191dp"
+                                        android:layout_height="34dp"
+                                        android:background="@drawable/cr10bffffff"
+                                        android:orientation="vertical">
+
+                                        <EditText
+                                            android:id="@+id/living_objective0"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:background="@null">
+
+                                        </EditText>
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="5dp"
+                                    android:gravity="center_vertical"
+                                    android:orientation="horizontal">
+
+                                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                        android:id="@+id/live_select_two"
+
+                                        android:layout_width="28dp"
+                                        android:layout_height="34dp"
+                                        android:background="@drawable/cr10bffffff"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:id="@+id/checkbox_live_image1"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:scaleType="fitXY"
+                                            android:src="@drawable/yes_checkbox" />
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="0dp"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="1" />
+
+                                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                                        xmlns:tools="http://schemas.android.com/tools"
+                                        android:id="@+id/rhk9iois5115"
+                                        android:layout_width="191dp"
+                                        android:layout_height="34dp"
+                                        android:background="@drawable/cr10bffffff"
+                                        android:orientation="vertical">
+
+                                        <EditText
+                                            android:id="@+id/living_objective1"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:background="@null">
+
+                                        </EditText>
+
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    xmlns:tools="http://schemas.android.com/tools"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="5dp"
+                                    android:gravity="center_vertical"
+                                    android:orientation="horizontal">
+
+                                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                                        xmlns:tools="http://schemas.android.com/tools"
+                                        android:id="@+id/live_select_three"
+
+                                        android:layout_width="28dp"
+                                        android:layout_height="34dp"
+                                        android:background="@drawable/cr10bffffff"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:id="@+id/checkbox_live_image2"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:scaleType="fitXY"
+                                            android:src="@drawable/yes_checkbox" />
+
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="0dp"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="1" />
+
+                                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+                                        android:layout_width="191dp"
+                                        android:layout_height="34dp"
+                                        android:background="@drawable/cr10bffffff"
+                                        android:orientation="vertical">
+
+                                        <EditText
+                                            android:id="@+id/living_objective2"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:background="@null">
+                                        </EditText>
+
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

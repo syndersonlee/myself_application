@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">나스스로</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">main</string>
+    <string name="title_activity_setting_objective">SettingObjectiveActivity</string>
+    <string name="title_activity_setting_objective_detail">SettingObjectiveDetailActivity</string>
+    <string name="title_activity_checklist_sub_menu">ChecklistSubMenuActivity</string>
+    <string name="title_activity_setting_checklist_timer">SettingChecklistTimerActivity</string>
+    <string name="title_activity_checklist_timer_broadcast">ChecklistTimerBroadcast</string>
+    <string name="title_activity_setting_checklist_order">SettingChecklistOrderActivity</string>
+    <string name="title_activity_checklist_order_broad_cast">ChecklistOrderBroadCast</string>
+    <string name="title_activity_setting_evaluation">SettingEvaluationActivity</string>
+    <string name="title_activity_check_evaluation_graph">CheckEvaluationGraphActivity</string>
+    <string name="title_activity_stamp_colleting">StampColletingActivity</string>
+    <string name="title_activity_timer_history">TimerHistoryActivity</string>
+    <string name="title_activity_order_history">OrderHistoryActivity</string>
+    <string name="title_activity_stamp_detail">StampDetailActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_timer_parents">TimerParentsActivity</string>
+    <string name="title_activity_order_parents">OrderParentsActivity</string>
+    <string name="title_activity_gift_stamp_adapter">GiftStampAdapter</string>
+    <string name="title_activity_stamp_adust">StampAdustActivity</string>
+</resources>
